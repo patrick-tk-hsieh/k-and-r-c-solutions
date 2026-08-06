@@ -21,11 +21,11 @@ This repository contains my solutions for *The C Programming Language (2nd Editi
 ├── LICENSE
 ├── .gitignore
 ├── chapter1/
-│   ├── exercise1-1.c
-│   ├── exercise1-2.c
+│   ├── ex1-01.c
+│   ├── ex1-02.c
 │   └── ...
 ├── chapter2/
-│   ├── exercise2-1.c
+│   ├── ex2-01.c
 │   └── ...
 └── ...
 ```
