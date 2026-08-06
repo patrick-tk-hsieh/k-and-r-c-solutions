@@ -20,12 +20,12 @@ This repository contains my solutions for *The C Programming Language (2nd Editi
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-├── chapter01
-│   ├── exercise01.c
-│   ├── exercise02.c
+├── chapter1/
+│   ├── exercise1-1.c
+│   ├── exercise1-2.c
 │   └── ...
-├── chapter02
-│   ├── exercise01.c
+├── chapter2/
+│   ├── exercise2-1.c
 │   └── ...
 └── ...
 ```
@@ -72,4 +72,4 @@ The original exercise statements remain the copyright of the publisher and are n
 
 ## License
 
-This project is licensed under the MIT License.
+This repository is licensed under the MIT License.
