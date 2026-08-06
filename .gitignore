@@ -1,0 +1,26 @@
+# Object files
+*.o
+*.obj
+
+# Executables
+*.out
+*.exe
+
+# Libraries
+*.a
+*.so
+*.dylib
+
+# Build directories
+build/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+
+# Debug symbols (macOS)
+*.dSYM/
+
+# Editor (Cursor / VS Code)
+.vscode/
