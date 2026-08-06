@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-    int c, blanks, tabs, lines;
+    int c, blank, tab, newline;
 
-    blanks = 0;
-    tabs = 0;
-    lines = 0;
+    blank = 0;
+    tab = 0;
+    newline = 0;
 
     while ((c = getchar()) != EOF) {
         if (c == ' ') {
-            ++blanks;
+            ++blank;
         }
         else if (c == '\t') {
-            ++tabs;
+            ++tab;
         }
         else if (c == '\n') {
-            ++lines;
+            ++newline;
         }
     }
-    printf("blanks: %d\ntabs: %d\nlines: %d\n", blanks, tabs, lines);
+    printf("blanks: %d\ntabs: %d\nnewlines: %d\n", blank, tab, newline);
 
     return 0;
 }

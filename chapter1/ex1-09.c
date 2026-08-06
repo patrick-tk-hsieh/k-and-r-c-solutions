@@ -1,21 +1,19 @@
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-    int c, blanks;
-
-    blanks = 0;
-
+    int c, flag;
+    flag = 0;
     while ((c = getchar()) != EOF) {
         if (c == ' ') {
-            if (blanks == 0) {
+            if (!flag) {
                 putchar(c);
             }
 
-            ++blanks;
+            flag = 1;
         }
         else {
             putchar(c);
-            blanks = 0;
+            flag = 0;
         }
     }
 
