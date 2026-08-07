@@ -4,14 +4,14 @@
 #define OUT 0
 
 /* Test cases:
-    Empty input (EOF)
-    Input containing only whitespace
-    Leading whitespace
-    Trailing whitespace
-    Multiple consecutive whitespace
-    Words separated by different whitespace
-    Input ending without a trailing newline
-*/
+ * - Empty input (EOF)
+ * - Input containing only whitespace
+ * - Leading whitespace
+ * - Trailing whitespace
+ * - Multiple consecutive whitespace
+ * - Words separated by different whitespace
+ * - Input ending without a trailing newline
+ */
 
 int main(int argc, char *argv[]) {
     int c, newline, word, character, state;
